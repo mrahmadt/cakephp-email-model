@@ -25,7 +25,7 @@ How to use it
 
 When you want to send email just write the following code:
 
-	ClassRegistry::init('Mail')->sendEmail($template,$name,$email,$data,null);
+	ClassRegistry::init('Mail')->sendEmail($template,$name,$email,$subject,$options,$when=null);
 
 Where:
 
