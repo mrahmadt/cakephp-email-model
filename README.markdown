@@ -37,7 +37,3 @@ Where:
  * @param string $when Optional paramter to set after how many days you would like to send the email.
  
  Also make sure to run the the Cakephp Shell SendMailShell (run it every 1 minute using cron job for example or run it in a terminal)
-
-
-PS:
-We use this code to send SMS (quickSMS) in our website http://rsaeel.com and also to allow users to invite their friends by importing contacts from gmail and send email & SMS invitation (example for how to use it.)
